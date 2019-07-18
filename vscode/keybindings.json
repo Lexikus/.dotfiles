@@ -1,0 +1,92 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+right",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "alt+meta+left",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "alt+meta+right",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+meta+right",
+        "command": "cursorWordPartRight"
+    },
+    {
+        "key": "ctrl+shift+meta+right",
+        "command": "cursorWordPartRightSelect"
+    },
+    {
+        "key": "ctrl+meta+left",
+        "command": "cursorWordPartLeft"
+    },
+    {
+        "key": "ctrl+shift+meta+left",
+        "command": "cursorWordPartLeftSelect"
+    },
+    {
+        "key": "alt+d",
+        "command": "docthis.documentThis"
+    },
+    {
+        "key": "ctrl+[Backquote]",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.quit"
+    },
+
+    {
+        "key": "ctrl+up",
+        "command": "-scrollLineUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "-scrollLineDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+end",
+        "command": "-cursorBottom",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+home",
+        "command": "-cursorTop",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+end",
+        "command": "-cursorBottomSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+home",
+        "command": "-cursorTopSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    }
+]
